@@ -1,0 +1,50 @@
+.section1 {
+  margin: 0 auto;
+  max-width: 1920px;
+  min-height: 700px;
+  background-color: #e6ece1;
+  position: relative;
+
+  .stone {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .desc {
+    display: flex;
+    flex-direction: column;
+    padding-left: 220px;
+    h1 {
+      max-width: 650px;
+      padding-top: 230px;
+      color: #262626;
+      text-transform: uppercase;
+      font-size: 48px;
+      text-align: left;
+    }
+    .btn {
+      margin-top: 40px;
+      width: 300px;
+      height: 62px;
+      background-color: #85c441;
+      color: #fff;
+      text-align: center;
+      border: none;
+    }
+  }
+  .label {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: #1b2b49;
+    color: #fff;
+    box-sizing: border-box;
+    padding-top: 60px;
+	text-transform: uppercase;
+	font-weight: 700;
+	position: relative;
+	right: -50%;
+	top: -300px;
+	z-index: 3;
+  }
+}
